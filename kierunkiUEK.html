@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>System siatkowy Bootstrapa</title>
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ </head>
+ <body>
+<center><h1> Kierunki studiów Uniwersytet Ekonomiczny w Krakowie</h1></center>
+<br><br>
+<p> Uczelnia powstała 28 maja 1925 roku jako państwowe Wyższe Studium Handlowe. W 1937 roku została przekształcona w Akademię Handlową, otrzymując tym samym uprawnienia szkoły akademickiej. Po wybuchu wojny Akademia, podobnie jak inne polskie uczelnie, została zamknięta, zaś jej profesorowie – razem z wykładowcami Uniwersytetu Jagiellońskiego i Akademii Górniczej – aresztowani i wywiezieni do obozu koncentracyjnego. Podjęto wówczas potajemne nauczanie, z którego skorzystała część dotychczasowych studentów. W 1950 roku przywróconą po wojnie Akademię przekształcono w Wyższą Szkołę Ekonomiczną z trzema wydziałami. W 1974 roku uczelnia uzyskała nazwę Akademia Ekonomiczna w Krakowie, zaś rok później uroczyście obchodzono jej 50-lecie. Po transformacji ustrojowej w 1989 roku uruchomiono nowe kierunki studiów. Gwałtownie wzrosła też liczba studiujących. Na mocy ustawy z dnia 6 lipca 2007 roku przyznano obecnie obowiązującą nazwę – Uniwersytet Ekonomiczny w Krakowie (nazwa obowiązuje od 25 sierpnia 2007 roku). </p><br>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+      
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="uek1.jpg" alt="UEK1" class="d-block w-100" width="350" height="450">
+          </div>
+          <div class="carousel-item">
+            <img src="uek2.jpg" alt="UEK2" class="d-block w-100" width="350" height="450">
+          </div>
+          <div class="carousel-item">
+            <img src="uek3.jpg" alt="UEK3" class="d-block w-100" width="350" height="450">
+          </div>
+        </div>
+      
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+	  
+<br><br>
+
+ <div class="row">
+ <div class="col-md-4">
+ <h3>Specjalność Bankowość Zaawansowana</h3>
+ <p>Studia przygotowują wysoko wykwalifikowaną kadrę podmiotów bankowych, przedsiębiorstw fintechowych i pośrednictwa finansowego, pionów finansowych przedsiębiorstw i jednostek administracji państwowej oraz instytucji regulacyjnych. W trakcie studiów kształcimy również analityków posiadających umiejętność szacowania i ograniczania ryzyka związanego z operacjami finansowymi. Ponadto umożliwiamy zdobycie wiedzy z zakresu finansów cyfrowych – zapoznajemy studentów m.in. z zagadnieniami związanymi z cyberbezpieczeństwem, sztuczną inteligencją jak również z innowacyjnymi modelami biznesowymi. </p>
+ </div>
+ <div class="col-md-4">
+ <h3>Specjalność Analityka Ekonomiczno-Finansowa</h3>
+ <p> Specjalność powstała w odpowiedzi na zapotrzebowanie rynku pracy, zgłaszane ze strony przedsiębiorstw i instytucji finansowych, takich jak: banki, domy maklerskie, urzędy skarbowe, jednostki samorządu terytorialnego oraz inne podmioty, wykorzystujące w działalności gospodarczej analizy ekonomiczno-finansowe, zarówno w skali mikro-, mezo-, jak również makroekonomicznej.</p>
+ </div>
+ <div class="col-md-4">
+ <h3> Zarządzanie ryzykiem bankowym i ubezpieczeniowym</h3>
+ <p>Na specjalności Zarządzanie ryzykiem bankowym i ubezpieczeniowym studentom przekazywana jest dogłębna i specjalistyczna wiedza oraz praktyczne umiejętności związane z zarządzaniem ryzykiem w bankach, w tym przede wszystkim identyfikacją, pomiarem oraz metodami ograniczania ryzyka kredytowego, płynności, rynkowego oraz operacyjnego. Studia zapoznają również z rynkiem ubezpieczeniowym, jego instytucjami, produktami i usługami, a także mechanizmami związanymi z modelowaniem ryzyka w finansach i ubezpieczeniach.</p>
+ </div>
+ </div>
+</div>
+
+
+
+ <div class="row">
+<form action="#">
+ <div class="col-md-4">
+    <h1>Rejestracja na studia</h1> <br>
+	
+	<label for="fname">First name:</label>
+    <input type='text' name='fname' maxlength="20" size="10"><br>
+
+	<label for="surname">Second name:</label>
+    <input type='text' name='surname' maxlength="20" size="10"><br>
+    
+	<label for="mail">Mail:</label>
+    <input type='text' name='mail' maxlength="20" size="10"><br>
+
+    Rodzaje studiów<br>
+    <input type="radio" name="r1" value="v1" id="radio1"><label for="radio1">Studia stacjonarne</label> <br>
+    <input type="radio" name="r1" value="v2" id="radio2"><label for="radio2">Studia niestiestacjonarne</label><br>
+ </div>
+    <br>
+ <div class="col-md-4">
+    Kierunek studiów<br>
+    <select name='studies' size="1">
+        <option value="1">Specjalność Analityka Rynku</option>
+        <option value="2">Specjalność E-Marketing</option>
+        <option value="3">Specjalność Handel Elektroniczny</option>
+        <option value="4">Specjalność Handel i Budowanie Relacji z Nabywcami</option>
+        <option value="5">Specjalność Marketing Miast i Regionów</option>
+        <option value="6">Specjalność Marketing Międzynarodowy</option>
+    </select><br>
+
+    <br>
+
+    Uwagi:<br>
+    <textarea name = "notes" rows='5' cols="40">
+       Jakiekolwiek?
+    </textarea><br>
+    <input type='submit' value='Rejestruj'> 
+    <input type='reset' value='Anuluj'>
+	</div>
+</form>
+</div>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+</html>
