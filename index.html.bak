@@ -68,13 +68,13 @@
  <div class="col-md-4">
     <h1>Rejestracja na studia</h1> <br>
 	
-	<label for="fname">First name:</label>
+	<label for="fname">First name:</label><br>
     <input type='text' name='fname' maxlength="20" size="10"><br>
 
-	<label for="surname">Second name:</label>
+	<label for="surname">Second name:</label><br>
     <input type='text' name='surname' maxlength="20" size="10"><br>
     
-	<label for="mail">Mail:</label>
+	<label for="mail">Mail:</label><br>
     <input type='text' name='mail' maxlength="20" size="10"><br>
 
     Rodzaje studiów<br>
